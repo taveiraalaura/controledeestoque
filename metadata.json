@@ -1,0 +1,6 @@
+{
+  "name": "Sistema de Gestão de Estoque",
+  "description": "Sistema completo de gestão de estoque e almoxarifado com controle de materiais, setores, movimentações, requisições com exportação em PDF e dashboard de indicadores.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
