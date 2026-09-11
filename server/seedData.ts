@@ -3,7 +3,7 @@ import { Material, Sector, Movement, Requisition, User } from '../src/types';
 export const initialUsers: User[] = [
   {
     id: 'usr-1',
-    name: '[SEU NOME AQUI]',
+    name: 'Laura Taveira',
     email: 'admin@estoque.com.br',
     role: 'ADMIN',
     sectorName: 'Almoxarifado Central',
@@ -254,7 +254,7 @@ export const initialMovements: Movement[] = [
     lotNumber: 'LT-2026-SUL01',
     invoiceNumber: 'NF-45890',
     notes: 'Recebimento de compra programada mensal de suprimentos.',
-    registeredBy: '[SEU NOME AQUI]',
+    registeredBy: 'Laura Taveira',
   },
   {
     id: 'mov-2',
@@ -289,7 +289,7 @@ export const initialMovements: Movement[] = [
     lotNumber: 'LT-HP-883',
     invoiceNumber: 'NF-10294',
     notes: 'Reposição de cartuchos para impressoras departamentais.',
-    registeredBy: '[SEU NOME AQUI]',
+    registeredBy: 'Laura Taveira',
   },
   {
     id: 'mov-4',
@@ -325,7 +325,7 @@ export const initialMovements: Movement[] = [
     expirationDate: '2027-04-15',
     invoiceNumber: 'NF-8821',
     notes: 'Lote com laudo técnico e CA aprovado.',
-    registeredBy: '[SEU NOME AQUI]',
+    registeredBy: 'Laura Taveira',
   },
   {
     id: 'mov-6',
@@ -378,7 +378,7 @@ export const initialMovements: Movement[] = [
     lotNumber: 'LT-LED-991',
     invoiceNumber: 'NF-6632',
     notes: 'Compra para projeto de eficiência energética.',
-    registeredBy: '[SEU NOME AQUI]',
+    registeredBy: 'Laura Taveira',
   },
   {
     id: 'mov-9',
@@ -412,7 +412,7 @@ export const initialRequisitions: Requisition[] = [
     status: 'ATENDIDA',
     totalValue: 499.50,
     notes: 'Materiais para integração de 15 novos colaboradores e rotinas de departamento pessoal.',
-    approvedBy: '[SEU NOME AQUI]',
+    approvedBy: 'Laura Taveira',
     dispatchedAt: '2026-02-10T14:15:00.000Z',
     createdAt: '2026-02-09T10:00:00.000Z',
     items: [

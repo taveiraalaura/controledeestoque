@@ -150,7 +150,7 @@ export const MovementsView: React.FC<MovementsViewProps> = ({
         reason: modalType === 'SAIDA' ? formData.reason.trim() : undefined,
         requesterName: modalType === 'SAIDA' ? formData.requesterName.trim() : undefined,
         notes: formData.notes.trim() || undefined,
-        registeredBy: '[SEU NOME AQUI]',
+        registeredBy: 'Laura Taveira',
       });
 
       setIsModalOpen(false);

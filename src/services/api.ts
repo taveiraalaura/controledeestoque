@@ -207,6 +207,6 @@ export const createMovement = (data: any) => api.registerMovement(data);
 export const fetchRequisitions = (filter?: Parameters<typeof api.getRequisitions>[0]) => api.getRequisitions(filter);
 export const createRequisition = (data: any) => api.createRequisition(data);
 export const updateRequisitionStatus = (id: string, status: string, autoCreateMovements?: boolean) =>
-  api.updateRequisitionStatus(id, status, '[SEU NOME AQUI]', autoCreateMovements);
+  api.updateRequisitionStatus(id, status, 'Laura Taveira', autoCreateMovements);
 export const deleteRequisition = (id: string) => api.deleteRequisition(id);
 export const resetDatabaseSeed = () => api.resetSeed();

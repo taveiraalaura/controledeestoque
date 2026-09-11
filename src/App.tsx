@@ -65,8 +65,8 @@ export default function App() {
   // Active User Profile
   const [currentUser, setCurrentUser] = useState<UserProfile>({
     id: 'usr-1',
-    name: '[SEU NOME AQUI]',
-    email: 'gestor.almoxarifado@empresa.com',
+    name: 'Laura Taveira',
+    email: 'taveiralaura386@gmail.com',
     role: 'GESTOR',
   });
 

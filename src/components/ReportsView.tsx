@@ -375,7 +375,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({ materials }) => {
         <div>
           <span className="font-semibold text-white">Relatório Patrimonial e de Posição de Estoque</span>
           <span className="mx-2 text-slate-600">•</span>
-          <span>Responsável Técnico: <strong className="text-amber-400">[SEU NOME AQUI]</strong></span>
+          <span>Responsável Técnico: <strong className="text-amber-400">Laura Taveira</strong></span>
         </div>
         <div className="text-[11px] text-slate-500 font-mono">
           Validação Contábil • Almoxarifado Central

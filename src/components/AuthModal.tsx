@@ -25,9 +25,9 @@ export const AuthModal: React.FC<AuthModalProps> = ({
     e.preventDefault();
     onLogin({
       id: selectedRole === 'GESTOR' ? 'usr-1' : 'usr-2',
-      name: name.trim() || (selectedRole === 'GESTOR' ? '[SEU NOME AQUI]' : 'Operador de Estoque'),
+      name: name.trim() || (selectedRole === 'GESTOR' ? 'Laura Taveira' : 'Operador de Estoque'),
       role: selectedRole,
-      email: selectedRole === 'GESTOR' ? 'gestao.almoxarifado@empresa.com' : 'operacao@empresa.com',
+      email: selectedRole === 'GESTOR' ? 'taveiralaura386@gmail.com' : 'operacao@empresa.com',
     });
     onClose();
   };
@@ -68,7 +68,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({
                 type="button"
                 onClick={() => {
                   setSelectedRole('GESTOR');
-                  setName('[SEU NOME AQUI]');
+                  setName('Laura Taveira');
                 }}
                 className={`p-3 rounded-xl border text-left cursor-pointer transition-all ${
                   selectedRole === 'GESTOR'

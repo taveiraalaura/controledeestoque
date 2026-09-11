@@ -336,7 +336,7 @@ class DatabaseService {
       unitPrice,
       totalPrice,
       date: input.date || new Date().toISOString(),
-      registeredBy: input.registeredBy || '[SEU NOME AQUI]',
+      registeredBy: input.registeredBy || 'Laura Taveira',
       notes: input.notes,
       // Entrada
       supplier: input.supplier,

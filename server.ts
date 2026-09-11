@@ -15,7 +15,7 @@ async function startServer() {
     res.json({
       status: 'ok',
       system: 'Sistema de Gestão de Estoque e Almoxarifado',
-      leadDeveloper: '[SEU NOME AQUI]',
+      leadDeveloper: 'Laura Taveira',
       timestamp: new Date().toISOString(),
     });
   });
@@ -277,7 +277,7 @@ async function startServer() {
       const result = db.updateRequisitionStatus(
         req.params.id,
         status,
-        user || '[SEU NOME AQUI]',
+        user || 'Laura Taveira',
         autoCreateMovements !== false
       );
 

@@ -143,7 +143,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </span>
           </div>
           <div className="text-xs font-semibold text-white">
-            [SEU NOME AQUI]
+            Laura Taveira
           </div>
           <div className="text-[11px] text-slate-400 mt-0.5">
             Arquiteto Full-Stack & Gestão

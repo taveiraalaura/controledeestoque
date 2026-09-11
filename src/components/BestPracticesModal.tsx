@@ -74,7 +74,7 @@ export const BestPracticesModal: React.FC<BestPracticesModalProps> = ({ isOpen, 
         {/* Modal Footer */}
         <div className="px-6 py-3 border-t border-slate-800 bg-slate-950/80 flex items-center justify-between shrink-0 text-xs">
           <span className="text-slate-400">
-            Responsável Técnico: <strong className="text-amber-400">[SEU NOME AQUI]</strong>
+            Responsável Técnico: <strong className="text-amber-400">Laura Taveira</strong>
           </span>
           <button
             onClick={onClose}

@@ -127,7 +127,7 @@ export function generateRequisitionPDF(requisition: Requisition): void {
   doc.setTextColor(15, 23, 42);
   doc.text(requisition.approvedBy || 'Pendente de validação', 152, 55);
   doc.text(formatDateTime(requisition.dispatchedAt) || 'Em triagem', 152, 63);
-  doc.text('[SEU NOME AQUI]', 152, 71);
+  doc.text('Laura Taveira', 152, 71);
 
   // Tabela de Itens Requisitados
   doc.setFont('helvetica', 'bold');
@@ -220,7 +220,7 @@ export function generateRequisitionPDF(requisition: Requisition): void {
   doc.setFont('helvetica', 'normal');
   doc.setTextColor(100, 116, 139);
   doc.text(requisition.requesterName, 55, signY + 9, { align: 'center' });
-  doc.text('[SEU NOME AQUI] - Almoxarifado', 155, signY + 9, { align: 'center' });
+  doc.text('Laura Taveira - Almoxarifado', 155, signY + 9, { align: 'center' });
 
   // Rodapé Técnico
   doc.setDrawColor(226, 232, 240);
@@ -228,7 +228,7 @@ export function generateRequisitionPDF(requisition: Requisition): void {
 
   doc.setFontSize(7.5);
   doc.setTextColor(148, 163, 184);
-  doc.text(`Documento gerado automaticamente pelo Sistema de Gestão de Estoque - Responsável Técnico: [SEU NOME AQUI]`, 14, 285);
+  doc.text(`Documento gerado automaticamente pelo Sistema de Gestão de Estoque - Responsável Técnico: Laura Taveira`, 14, 285);
   doc.text(`Emissão: ${new Date().toLocaleString('pt-BR')}`, 196, 285, { align: 'right' });
 
   // Download do arquivo
@@ -273,7 +273,7 @@ export function generateStockPositionPDF(
 
   doc.setFontSize(8.5);
   doc.setTextColor(251, 191, 36);
-  doc.text(`Responsável Técnico: [SEU NOME AQUI]`, 283, 13, { align: 'right' });
+  doc.text(`Responsável Técnico: Laura Taveira`, 283, 13, { align: 'right' });
   doc.setTextColor(203, 213, 225);
   doc.text(`Emitido em: ${new Date().toLocaleString('pt-BR')}`, 283, 20, { align: 'right' });
 
@@ -432,7 +432,7 @@ export function generateStockPositionPDF(
 
     doc.setFontSize(7);
     doc.setTextColor(148, 163, 184);
-    doc.text(`Sistema de Gestão de Estoque e Almoxarifado • Responsável Técnico: [SEU NOME AQUI]`, 14, 203);
+    doc.text(`Sistema de Gestão de Estoque e Almoxarifado • Responsável Técnico: Laura Taveira`, 14, 203);
     doc.text(`Página ${i} de ${pageCount}`, 283, 203, { align: 'right' });
   }
 

@@ -56,7 +56,7 @@ export const BestPracticesView: React.FC = () => {
 
           <div className="px-3.5 py-2.5 rounded-xl bg-slate-950/80 border border-slate-800 shrink-0 text-right">
             <div className="text-[11px] text-slate-400">Responsável Técnico</div>
-            <div className="text-xs font-bold text-amber-400">[SEU NOME AQUI]</div>
+            <div className="text-xs font-bold text-amber-400">Laura Taveira</div>
             <div className="text-[10px] text-emerald-400 flex items-center gap-1 justify-end mt-0.5">
               <ShieldCheck className="w-3 h-3" />
               Normas ABNT & ISO

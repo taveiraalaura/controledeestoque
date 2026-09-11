@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-1.5 bg-slate-900 px-2.5 py-1 rounded border border-slate-800 text-slate-300">
             <Code className="w-3.5 h-3.5 text-amber-400" />
             <span>Responsável Técnico & Desenvolvedor:</span>
-            <strong className="text-amber-400 font-semibold">[SEU NOME AQUI]</strong>
+            <strong className="text-amber-400 font-semibold">Laura Taveira</strong>
           </div>
 
           <div className="flex items-center gap-1 text-[11px] text-slate-400 font-mono">
